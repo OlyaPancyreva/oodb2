@@ -14,9 +14,9 @@ public class ScanDB {
         HashMap tables2 = ScanClass.getCl();
 
         if (tables.equals(tables2)) {
-            System.out.println("Ok");
+            System.out.println("Таблицы совпадают");
         } else{
-            System.out.println("Ne ok");
+            System.out.println("Таблицы не совпадают");
         }
 
 
